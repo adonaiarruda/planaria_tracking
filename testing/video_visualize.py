@@ -3,7 +3,6 @@ import cv2
 import imutils
 import time
 
-from pynput.keyboard import Key, Listener
 
 
 cap = cv2.VideoCapture('videos/1_3NeoLOCZONA_A-96H_C0A1_P1_N1.mp4')

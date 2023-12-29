@@ -1,0 +1,14 @@
+url: https://pyimagesearch.com/2021/04/28/opencv-morphological-operations/
+
+The morphological operations covered:
+
+- Erosion
+- Dilation
+- Opening
+- Closing
+- Morphological gradient
+- Black hat
+- Top hat (also called “White hat”)
+
+
+And sometimes a clever use of morphological operations can allow you to avoid more complicated (and computationally expensive) machine learning and deep learning algorithms.

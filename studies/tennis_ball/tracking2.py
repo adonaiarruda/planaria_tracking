@@ -13,7 +13,7 @@ tracker.init(frame, BB)
 while True:
 	_,frame = video.read()
 	frame = imutils.resize(frame,width=720)
-	track_success,BB = tracker.update(frame)
+	track_success, BB = tracker.update(frame)
 	if track_success:
 		top_left = (int(BB[0]),int(BB[1]))
 		bottom_right = (int(BB[0]+BB[2]), int(BB[1]+BB[3]))
